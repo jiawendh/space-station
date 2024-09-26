@@ -16,13 +16,18 @@ const Metadata = () => {
       />
 
       {/* Twitter */}
-      <meta property="twitter:title" content="Jupiter Metropolis API" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content="Jupiter Metropolis API" />
       <meta
-        property="twitter:description"
+        name="twitter:description"
         content="Jupiter Metropolis API is the hub for the most powerful set of liquidity APIs in crypto. Unlock seamless access to liquidity and data with Metropolis and find all the API endpoints needed to build a winning business, ranging from Swap API, Token API, Price API, and more."
       />
       <meta
-        property="twitter:image"
+        name="twitter:image"
+        content="https://station.jup.ag/img/metropolis-api/api-jup_2.jpg"
+      />
+      <meta
+        name="twitter:image:src"
         content="https://station.jup.ag/img/metropolis-api/api-jup_2.jpg"
       />
 
