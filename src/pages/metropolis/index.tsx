@@ -234,16 +234,14 @@ const Metropolis = () => {
                     Solana.
                   </p>
                 </div>
-                <div className="flex flex-col items-center group rounded-lg border border-solid border-transparent px-3 py-4 transition-colors relative">
+                <div className="flex flex-col items-center group rounded-lg border border-solid border-transparent px-2 py-4 transition-colors relative">
                   <LimitOrderIcon height={64} width={64} color={"#c7f284"} />
-                  <span className="absolute top-[38px] left-0 right-0 text-sm font-semibold text-[#c7f284] bg-[#131C25] inline-block p-1">
-                    Coming Soon!
-                  </span>
                   <h2 className="mt-3 mb-1.5 md:mb-3 text-lg md:text-2xl font-bold">
                     <span className="text-[#c7f284]">Limit Order API</span>
                   </h2>
                   <p className="text-white m-0 max-w-[30ch] text-sm opacity-50 font-medium">
-                    Coming soon!
+                    Create, cancel, and manage limit orders for tokens including
+                    Token 2022 without Transfer Tax function.
                   </p>
                 </div>
                 <div className="flex flex-col items-center group rounded-lg border border-solid border-transparent px-3 py-4 transition-colors relative">
@@ -331,12 +329,14 @@ const Metropolis = () => {
           <div className="px-3">
             <div className="max-w-6xl mx-auto mt-[60px]">
               {/* Partners */}
-              <p className="text-white text-center text-3xl md:text-4xl font-semibold flex-1 mb-8 pt-3.5">
-                Our Partners
+              <div className="text-center flex-1 mb-8 pt-3.5">
+                <p className="text-white text-3xl md:text-4xl font-semibold m-0">
+                  Our Partners
+                </p>
                 <p className="p-0 pt-2 m-0 opacity-60 text-white text-base">
                   Generating over $100M in Revenue
                 </p>
-              </p>
+              </div>
 
               <div className="w-full overflow-hidden relative">
                 <div className="shadow-2xl blur-md absolute -top-20 -bottom-20 -left-20 w-1/5 bg-[#131C25] z-30"></div>
@@ -438,45 +438,43 @@ const Metropolis = () => {
                     time="10:36 PM · Dec 21, 2023"
                     className="md:col-span-2 lg:col-span-1"
                   >
-                    <p className="text-white/60 text-base">
-                      <span className="pb-2 block">Did you know?:</span>
-                      <span className="pb-2 block">
-                        <a
-                          className="underline underline-offset-4 text-white/60 hover:text-white/80"
-                          href="https://x.com/JupiterExchange"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          @JupiterExchange
-                        </a>{" "}
-                        has a bridge feature? Where it will compare rates and
-                        find you the most efficient path to{" "}
-                        <a
-                          className="underline underline-offset-4 text-white/60 hover:text-white/80"
-                          href="https://x.com/search?q=%24SOL&src=cashtag_click"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          $SOL
-                        </a>
-                      </span>
-                      <span className="py-2 block">
-                        Jupiter, for me, is the single most important app on{" "}
-                        <a
-                          className="underline underline-offset-4 text-white/60 hover:text-white/80"
-                          href="https://x.com/search?q=%24SOL&src=cashtag_click"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          $SOL
-                        </a>
-                      </span>
-                      <span className="py-2 block">
-                        It is our Grand Central Station.
-                      </span>
-                      <span className="py-2 block">Love at first swap</span>
-                      <span className="pt-2 block">GM</span>
-                    </p>
+                    <span className="pb-2 block">Did you know?:</span>
+                    <span className="pb-2 block">
+                      <a
+                        className="underline underline-offset-4 text-white/60 hover:text-white/80"
+                        href="https://x.com/JupiterExchange"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        @JupiterExchange
+                      </a>{" "}
+                      has a bridge feature? Where it will compare rates and
+                      find you the most efficient path to{" "}
+                      <a
+                        className="underline underline-offset-4 text-white/60 hover:text-white/80"
+                        href="https://x.com/search?q=%24SOL&src=cashtag_click"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        $SOL
+                      </a>
+                    </span>
+                    <span className="py-2 block">
+                      Jupiter, for me, is the single most important app on{" "}
+                      <a
+                        className="underline underline-offset-4 text-white/60 hover:text-white/80"
+                        href="https://x.com/search?q=%24SOL&src=cashtag_click"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        $SOL
+                      </a>
+                    </span>
+                    <span className="py-2 block">
+                      It is our Grand Central Station.
+                    </span>
+                    <span className="py-2 block">Love at first swap</span>
+                    <span className="pt-2 block">GM</span>
                   </Testimonial>
                   <Testimonial
                     source="https://twitter.com/Abbasshaikh42/status/1735940030865277244"
@@ -485,33 +483,31 @@ const Metropolis = () => {
                     time="4:28 PM · Dec 16, 2023"
                     className="md:col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto"
                   >
-                    <p className="text-white/60 text-base">
-                      <span className="pb-2 block">
-                        Tell me this isn't a gorgeous fucking product by{" "}
-                        <a
-                          className="underline underline-offset-4 text-white/60 hover:text-white/80"
-                          href="https://x.com/JupiterExchange"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          @JupiterExchange
-                        </a>
-                      </span>
-                      <span className="py-2 block">
-                        This would previously require me to use a slow, redacted
-                        CEX that requires KYC and requires me to handover
-                        custody of my assets.
-                      </span>
-                      <span className="pt-2 block font-semibold">
-                        The performant chain thesis is simple:
-                      </span>
-                      <span className="block">
-                        When your base layer does not require weeks and months
-                        of development efforts purely directed towards gas/fee
-                        optimizations, you allow your builders to innovate and
-                        focus purely on the product & they make the magic happen
-                      </span>
-                    </p>
+                    <span className="pb-2 block">
+                      Tell me this isn't a gorgeous fucking product by{" "}
+                      <a
+                        className="underline underline-offset-4 text-white/60 hover:text-white/80"
+                        href="https://x.com/JupiterExchange"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        @JupiterExchange
+                      </a>
+                    </span>
+                    <span className="py-2 block">
+                      This would previously require me to use a slow, redacted
+                      CEX that requires KYC and requires me to handover
+                      custody of my assets.
+                    </span>
+                    <span className="pt-2 block font-semibold">
+                      The performant chain thesis is simple:
+                    </span>
+                    <span className="block">
+                      When your base layer does not require weeks and months
+                      of development efforts purely directed towards gas/fee
+                      optimizations, you allow your builders to innovate and
+                      focus purely on the product & they make the magic happen
+                    </span>
                   </Testimonial>
                 </div>
               </div>
